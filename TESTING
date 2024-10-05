@@ -1,4 +1,21 @@
-HELLOOO
-BYE
-POOKIE
-MIK
+#include <stdio.h>
+int main() {
+    int a, b, c;
+
+    printf("Enter the three sides of a triangle ");
+    scanf("%d%d%d", &a, &b, &c);
+
+    if (a + b > c) {
+      if (a + c > b){
+      	if (b + c > a){
+      		printf("Valid triangle theorem \n");
+      		
+			  }
+		  }
+	  }	
+      
+    else {
+     	printf("Invalid, it is not a triangle");
+	}
+    return 0;
+}
